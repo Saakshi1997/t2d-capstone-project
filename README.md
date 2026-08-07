@@ -99,3 +99,9 @@ python scripts/03_opentargets_benchmark.py
 To be filled in honestly as the analysis proceeds — e.g. LD reference mismatch
 (1000G vs. in-sample LD), genome build harmonization between GWAS (likely hg19)
 and GTEx v8 (hg38), single-locus scope, credible set resolution limits.
+
+## Acknowledgments
+
+Repo scaffolding and tooling (folder structure, `.gitignore`, `LICENSE`, git
+setup) were set up with Claude Code assistance. The fine-mapping, colocalization,
+and biological interpretation are my own analytical work.
