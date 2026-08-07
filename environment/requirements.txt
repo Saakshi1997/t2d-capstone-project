@@ -1,0 +1,9 @@
+# Python dependencies for scripts/03_opentargets_benchmark.py and any
+# visualization/data-wrangling done outside R.
+#
+# Install with: pip install -r environment/requirements.txt
+# (consider a virtualenv: python -m venv .venv && source .venv/bin/activate)
+
+requests>=2.31
+pandas>=2.0
+matplotlib>=3.7

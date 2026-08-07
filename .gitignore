@@ -1,0 +1,54 @@
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+
+# Claude Code local settings
+.claude/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+.eggs/
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+.python-version
+
+# R
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+renv/library/
+renv/staging/
+renv/python/
+renv/local/
+renv/sandbox/
+
+# Raw / reference data — large, re-downloadable, provenance tracked in SOURCES.md
+# (see README: only processed, analysis-ready subsets are small enough to commit)
+data/raw/*
+!data/raw/SOURCES.md
+data/reference/*
+!data/reference/.gitkeep
+
+# Common large bioinformatics file types, wherever they land
+*.bam
+*.bai
+*.cram
+*.vcf
+*.vcf.gz
+*.vcf.gz.tbi
+*.bcf
+*.bed.gz
+*.zip
+*.tar.gz
+
+# Keep empty result/data dirs tracked via .gitkeep, but ignore stray junk
+*.log
